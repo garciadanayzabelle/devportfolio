@@ -1,0 +1,77 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*targets element body*/
+body {
+	background-image: url(../images/bg5.jpeg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: #f2f2f2; /*off white*/
+	font-family: 'Roboto', sans-serif;
+}
+/*end of body styling*/
+
+/*targets the html element h1*/
+h1 {
+	font-family: 'Amatic SC', cursive;
+	font-size: 60px;
+	background-color: #333; /*off-black*/
+	text-transform: uppercase;
+	padding: 10px;
+	letter-spacing: 4px;
+	border-radius: 10px;
+	margin-bottom: 15px;
+	text-align: center;
+	font-weight: 400;
+}
+/*end of h1 styling*/
+
+/*start of h2 element styling*/
+h2 {
+	color: teal;
+	background-color: #333; /*off-black*/
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	margin-bottom: 30px;
+	padding: 10px;
+	border-radius: 10px;
+	text-align: center;
+}
+/*end of h2 element styling*/
+
+/*targets the class attribute bio*/
+.bio {
+	font-size: 18px;
+	line-height: 1.75;
+	background-color: rgba(32, 153, 146,0.8);
+	border-radius: 10px;
+	padding: 10px;
+
+}
+/*end of bio*/
+
+/*targets the id attribute me*/
+#me {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  border-width: 6px;
+  border-color: #f2f2f2;
+  border-style: solid;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*end of id me*/
+
+/*targets class container*/
+.container {
+	width: 500px;
+	margin: 0 auto;
+}
